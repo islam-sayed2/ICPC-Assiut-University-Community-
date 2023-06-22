@@ -1,0 +1,15 @@
+#include <iostream>
+ 
+using namespace std;
+ 
+int main()
+{
+int a,b,c;
+int ma,mn;
+cin>>a>>b>>c;
+ma=max(a,b);
+ma=max(ma,c);
+mn=min(a,b);
+mn=min(mn,c);
+cout<<mn<<" "<<ma;
+}
