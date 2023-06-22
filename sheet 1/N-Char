@@ -1,0 +1,22 @@
+#include <iostream>
+ 
+using namespace std;
+ 
+int main()
+{
+char a,y;
+cin>>a;
+int ask=a;
+if(ask >=97 && ask<=122){
+        ask = ask - 32;
+    y=ask;
+    cout<<y;
+}else{
+      ask = ask + 32;
+    y=ask;
+    cout<<y;
+}
+    return 0;
+ 
+}
+ 
